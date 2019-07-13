@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="245dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="2">
+    <!--一行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <!--4分之一-->
+        <LinearLayout
+            android:id="@+id/ll_qtg"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/home_adidas"
+                android:background="@drawable/home_adidas"/>
+        </LinearLayout>
+
+        <include layout="@layout/divider_1px_vertical"></include>
+
+        <!--4分之2-->
+        <LinearLayout
+            android:id="@+id/ll_yhh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/home_champion"
+                android:background="@drawable/home_champion"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/divider_1px_hor"></include>
+
+    <!--第二行-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <!--4分之三-->
+        <LinearLayout
+            android:id="@+id/ll_agj"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+           <ImageButton
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/home_pampers"
+               android:background="@drawable/home_pampers"/>
+        </LinearLayout>
+        <include layout="@layout/divider_1px_vertical"></include>
+        <!--4分之4-->
+        <LinearLayout
+            android:id="@+id/ll_bmqd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.5"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/home_ysl"
+                android:background="@drawable/home_ysl"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

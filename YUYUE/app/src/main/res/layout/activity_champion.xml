@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--登录界面,用LinearLayout-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--标题栏-->
+
+    <include
+        android:id="@+id/go_back"
+        layout="@layout/main_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </include>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="Champion(冠军品牌）\n"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="100dp" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/champion1"/>
+        <include layout="@layout/divider_1px_vertical"></include>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/champion2"/>
+        <include layout="@layout/divider_1px_vertical"></include>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/champion3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.5"
+            android:text="\n
+        创立时间:
+        1919年\n
+        创始人:
+            Simon Feinbloom\n
+        所属公司:
+        Champion KnitWear Co\n
+        创始地:
+            美国纽约的罗切斯特\n
+            \n
+        1919年，Simon Feinbloom和他的父亲一起，在美国纽约的罗切斯特正式成立了Champion KnitWear Co.。如同所痴迷于竞技体育运动的人们对于胜利的渴望，所有人的心中都存在着一个关于冠军的梦，因此Champion从问世就吸引了所有运动爱好者的眼球。\n"/>
+
+</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/dianhua"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:text="详情请咨询：88888888"/>
+</LinearLayout>

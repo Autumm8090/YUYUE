@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yus.taobaoui">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".NetApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/default_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Choose_Activity"
+            android:theme="@style/activityTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.MeActivity" />
+        <activity android:name=".view.ClothesActivity" />
+        <activity android:name=".view.ChampionActivity" />
+        <activity android:name=".view.DingdanActivity" />
+        <activity android:name=".view.RetrievePswActivity" />
+        <activity android:name=".ui.NewTabActivity" />
+        <activity android:name=".view.ELANDActivity" />
+        <activity android:name=".view.ThenorthfaceActivity" />
+        <activity android:name=".view.MyStoreActivity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".view.SaleActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".view.SupplierActivity" />
+        <activity android:name=".view.YslActivity" />
+        <activity android:name=".view.Sale_ysl_Activity" />
+        <activity android:name=".view.PayActivity" />
+        <activity android:name=".view.StoreActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".supper.Home2Activity" />
+        <activity android:name=".supper.saleActivity" />
+        <activity android:name=".supper.PersonActivity" />
+        <activity android:name=".supper.PeisongActivity" />
+        <activity android:name=".supper.Peisong1Activity" />
+        <activity android:name=".supper.ShouhouActivity" />
+        <activity android:name=".supper.NewsActivity" />
+        <activity android:name=".supper.ChangkuActivity" />
+        <activity android:name=".supper.salenewActivity" />
+        <activity android:name=".supper.tablayout_Activity" />
+        <activity android:name=".supper.Nickname_Activity" />
+        <activity android:name=".supper.Sex_Activity" />
+        <activity android:name=".supper.signname_activity" />
+        <activity android:name=".supper.MyWallet_activity" />
+        <activity android:name=".supper.loose_change_activity" />
+        <activity android:name=".supper.personal_certificate_activity" />
+        <activity android:name=".supper.collect_activity" />
+        <activity android:name=".supper.about_activity" />
+        <activity android:name=".supper.login_activity" />
+        <activity android:name=".supper.registerActivity" />
+        <activity android:name=".supper.PersonFragment"/>
+    </application>
+
+</manifest>

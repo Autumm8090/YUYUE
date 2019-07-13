@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        android:id="@+id/go_back"
+        layout="@layout/main_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </include>
+    <com.yus.taobaoui.supper.ItemView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_text="合作商审核通过"
+        app:right_text="" />
+
+    <com.yus.taobaoui.supper.ItemView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_text="您的订单付款成功，宝贝已整装待发，请耐心等待"
+        app:right_text="" />
+
+    <com.yus.taobaoui.supper.ItemView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_text="您的订单付款成功，宝贝已整装待发，请耐心等待"
+        app:right_text="" />
+
+    <com.yus.taobaoui.supper.ItemView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_text="您的订单付款成功，宝贝已整装待发，请耐心等待"
+        app:right_text="" />
+
+    <com.yus.taobaoui.supper.ItemView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_text="您的订单付款成功，宝贝已整装待发，请耐心等待"
+        app:right_text="" />
+
+    <com.yus.taobaoui.supper.ItemView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_text="您的订单付款成功，宝贝已整装待发，请耐心等待"
+        app:right_text="" />
+
+    <com.yus.taobaoui.supper.ItemView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_text="订单于2019-3-08 12:53:41已发货"
+        app:right_text="" />
+
+    <com.yus.taobaoui.supper.ItemView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_text="订单于2019-3-04 12:50:41已发货"
+        app:right_text="" />
+    
+    <com.yus.taobaoui.supper.ItemView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_text="您的订单付款成功，宝贝已整装待发，请耐心等待"
+        app:right_text="" />
+
+    <com.yus.taobaoui.supper.ItemView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        app:left_text="您的订单付款成功，宝贝已整装待发，请耐心等待"
+        app:right_text="" />
+
+</LinearLayout>
+    </ScrollView>

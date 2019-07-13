@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--登录界面,用LinearLayout-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--标题栏-->
+
+    <include
+        android:id="@+id/go_back"
+        layout="@layout/main_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </include>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="YSl销售情况\n"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="100dp" />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:src="@drawable/sale_ysl_tu"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.5"
+            android:text="\n
+            在售：6749人\n
+            已售：27836529件\n
+            主要遍布于：北京，上海，江苏，广州。\n
+            你所在城市已有27家代理，他们整体销售不错，建议你参与！
+
+       "/>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/dianhua"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:text="详情请咨询：123456"/>
+</LinearLayout>
